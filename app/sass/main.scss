@@ -1,0 +1,72 @@
+
+// ------------- Variables -------------------
+
+$main-font: 'Montserrat', sans-serif;
+// $main-font: serif;
+
+// ----------- End Variables -----------------
+
+body{ font-family: $main-font }
+
+.navbar {
+
+  margin-bottom: 0 !important;
+
+  .navbar-nav {
+  display: inline-block;
+  float: none;
+  }
+
+  .navbar-collapse { text-align: center }
+}
+.top-info{
+  background: #f0f0f0;
+  height: 30px;
+  line-height: 30px;
+}
+.navbar,
+.navbar-brand{
+    line-height: 70px;
+    height: 70px;
+    padding-top: 0;
+    text-transform: uppercase;
+    font-size: 12px !important;
+    font-weight: bold;
+
+    background: white;
+    border:none;
+}
+
+.navbar-nav li a {
+  padding: 22px;
+  border: none;
+color: #2a2929 !important;
+}
+
+.container-fluid { padding: 0 !important;}
+
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+
