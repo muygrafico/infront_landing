@@ -33,5 +33,5 @@ gulp.task('watch', function() {
   // gulp.watch('less/*.less', ['less']);
   gulp.watch('app/sass/**/*.scss', ['sass']);
   gulp.watch('app/pages/**/*.+(html|nunjucks)', ['nunjucks']);
-
+  gulp.watch('app/**/*.*', ['nunjucks']);
 });
